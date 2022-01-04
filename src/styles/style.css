@@ -1,0 +1,35 @@
+.serviceForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    flex-direction: column;
+    margin: 1rem 0 0rem 0rem;
+}
+
+#submitRequest {
+    margin: 1rem 0 2rem 0rem;
+    padding: 0.5rem;
+    background-color: rgb(71, 10, 253);
+    color: rgb(227, 247, 251);
+    font-size: 1rem;
+}
+
+.label {
+    font-size: larger;
+}
+
+.button__size {
+    size: 20px;
+    /* padding: 0.5rem; */
+}
+
+.description{
+    display: grid;
+}
+
+.request__delete{
+    background-color: purple;
+    color: white;
+}
